@@ -30,4 +30,41 @@
       "type": "json"
     }
   ]
+  [
+    {
+        "type": "row",
+        "gutterSpacing": "",
+        "cols": [
+            {
+                "type": "col",
+                "spans": {
+                    "xl": 11,
+                    "md": 10,
+                    "sm": 10,
+                    "xs": 11
+                },
+                "gutterSpacing": "",
+                "components": [
+                    {
+                        "id": "components/media/Video",
+                        "FRN_resourceEndpoints": [
+                            {
+                                "url": "",
+                                "type": "json"
+                            }
+                        ],
+                        "FRN_style": {},
+                        "props": {
+                            "clipId": "2036",
+                            "autoPlay": true,
+                            "showDockedVideo": true,
+                            "dockPosition": "bottom-left",
+                            "wNVideoCanvasProps": []
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
 }
