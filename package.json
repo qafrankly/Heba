@@ -1,60 +1,24 @@
 {
-  "thumbnail": "https://modules-qa.franklyinc.com/assets/Video/icon_stroke_media_video.svg",
+  "thumbnail": "https://wnow-modules.s3.amazonaws.com/icon_stroke_media_videoplayer.svg",
   "tag": "Heba",
-  "affiliates":["wnow"],
+  "affiliates": [
+    "WNOW"
+  ],
   "propTypes": {
-    "title": "PropTypes.string",
+       "title": "PropTypes.string",
     "layout": "PropTypes.string"
+
   },
   "defaultProps": {
-    "title": "Test uniqueness",
-    "titleColor": "#000",
-    "backgroundColor": "white",
-    "layout": "hero",
-    "numberOfItems": 6,
-    "textColor": "black",
-    "heroImageBackgroundColor": "#2980b9",
-    "thumbnailAlignment": "left"
+    "title": "muzna test",
+    "zip": 10001,
+    "dayAmount": 10
   },
-  "propChoices": {
-    "layout": [
-      "hero",
-      "list"
-    ]
-  },
-          "type": "row",
-        "gutterSpacing": "",
-        "cols": [
-            {
-                "type": "col",
-                "spans": {
-                    "xl": 11,
-                    "md": 10,
-                    "sm": 10,
-                    "xs": 11
-                },
-                "gutterSpacing": "",
-                "components": [
-                    {
-                        "id": "components/media/Video",
-                        "FRN_resourceEndpoints": [
-                            {
-                                "url": "",
-                                "type": "json"
-                            }
-                        ],
-                        "FRN_style": {},
-                        "props": {
-                            "clipId": "2036",
-                            "autoPlay": true,
-                            "showDockedVideo": true,
-                            "dockPosition": "bottom-left",
-                            "wNVideoCanvasProps": []
-                        }
-                    }
-                ]
-            }
-        ]
+  "propChoices": {},
+  "FRN_resourceEndpoints": [
+    {
+      "url": "",
+      "type": "json"
     }
-]
+  ]
 }
