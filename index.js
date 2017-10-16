@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import "jquery"
 
 class RandomTest extends Component {
   static PropTypes = {
@@ -8,7 +9,7 @@ class RandomTest extends Component {
   render(){
     let {
       //h1 = dep(),
-      h2 = 'sup this a github edit',
+      h2 = 'this a github edit by Heba',
     } = this.props;
 
     let {
